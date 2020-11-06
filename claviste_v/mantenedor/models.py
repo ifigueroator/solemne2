@@ -1,5 +1,7 @@
 from django.db import models
 
+
+
 class regitro_cliente(models.Model):
     nombre=models.CharField(max_length=30)
     apellidoP=models.CharField(max_length=30)
@@ -14,6 +16,14 @@ class nuevos_plan(models.Model):
     precio_plan=models.IntegerField()
     fecha_inicio=models.DateField()
     fecha_termino=models.DateField()
+
+  #  def addComment(self):
+  #      self.precio_plan = self.precio_plan + 1
+   #     self.nombre_plan = self.nombre_plan + 1
+    #    return self
+        
+
+    
 
   
 
