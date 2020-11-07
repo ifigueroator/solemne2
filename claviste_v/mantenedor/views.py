@@ -8,3 +8,6 @@ from claviste_v.serializers import registroClienteSerializers
 class registroClienteViewset(viewsets.ModelViewSet):
     queryset = regitro_cliente.objects.all()
     serializer_class=registroClienteSerializers
+
+
+
